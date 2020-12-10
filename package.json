@@ -1,0 +1,24 @@
+{
+  "name": "foodviram-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "server": "nodemon app"
+  },
+  "author": "Vaibhav Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
